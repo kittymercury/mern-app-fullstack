@@ -33,7 +33,6 @@ export const CreatePage = () => {
             <div className="col s8 offset-s2" style={{ paddingTop: '2rem '}}>
             <div className="input-field">
             <input
-                className="white-text"
                 placeholder="Paste a link"
                 autoComplete="off"
                 id="link"

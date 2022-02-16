@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "I have a secret",
+    "mongoUri": "mongodb+srv://vixxxy:9yi8ApxtmqhUXqTV@cluster0.gaui3.mongodb.net/mernAppDatabase?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}

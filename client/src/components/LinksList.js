@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export const LinksList = ({ links }) => {
 console.log("🚀 ~ file: LinksList.js ~ line 5 ~ LinksList ~ links", links)
     if (!links.length) {
-        return <p className="center white-text">No links</p>
+        return <p className="center">No links</p>
     }
 
     return (
