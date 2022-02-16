@@ -1,0 +1,75 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+html, body, #root, .container, .row {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    padding: 2rem;
+    background-color: #000307;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+
+    right: 0;
+    left: 0;
+}
+
+.col.s12.m5 {
+    margin-left: 0;
+}
+
+.link.card {
+    padding: 1rem 2rem;
+    background-color: #5e4885 !important;
+    color: white;
+}
+
+.col.s6.offset-s3,
+.col.s8.offset-s2 {
+    margin-left: 0;
+}
+
+.row .col.s6.offset-s3 h2 {
+    text-align: center;
+}
+
+table tr {
+    border-bottom: 1px solid #ba71c2;
+    color: white;
+}
+
+input.yellow-input {
+    border-bottom: 1px solid #fff !important; 
+    box-shadow: 0 1px 0 0 #fff !important;
+}
+
+input.yellow-input + label {
+    color: #ffffff !important;
+}
+
+input.yellow-input:focus {
+    border-bottom: 1px solid rgb(251, 255, 11) !important;
+    box-shadow: 0 1px 0 0 rgb(255, 239, 12) !important;
+}
+
+.card .card-action {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card .card-title {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
